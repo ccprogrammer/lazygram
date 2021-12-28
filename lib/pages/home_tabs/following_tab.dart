@@ -18,8 +18,8 @@ class FollowingTab extends StatelessWidget {
               .map(
                 (item) => FollowingPost(
                   imagePost: item.imageGallery,
-                  imageUser: 'assets/image_profile.jpg',
-                  username: 'lubiancaa',
+                  imageUser: 'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80',
+                  username: 'CCP',
                   likes: random.nextInt(1000),
                   comments: random.nextInt(50),
                   downloads: random.nextInt(100),

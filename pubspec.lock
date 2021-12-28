@@ -184,6 +184,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.11"
+  material_color_utilities:
+    dependency: transitive
+    description:
+      name: material_color_utilities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.2"
   meta:
     dependency: transitive
     description:
@@ -273,13 +280,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  sliding_up_panel:
-    dependency: "direct main"
-    description:
-      name: sliding_up_panel
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0+1"
   source_span:
     dependency: transitive
     description:
@@ -321,7 +321,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.3"
+    version: "0.4.8"
   typed_data:
     dependency: transitive
     description:
@@ -335,7 +335,7 @@ packages:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.1"
   win32:
     dependency: transitive
     description:

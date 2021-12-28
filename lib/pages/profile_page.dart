@@ -54,14 +54,16 @@ class ProfilePage extends StatelessWidget {
               child: Column(
                 children: [
                   CircleAvatar(
-                    backgroundImage: AssetImage(
-                      'assets/image_profile.jpg',
+                    backgroundImage: NetworkImage(
+                      'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80',
+                      
                     ),
+                    
                     radius: 40,
                   ),
                   SizedBox(height: 5),
                   Text(
-                  'lubiancaa',
+                    'CCP',
                     style: poppins.copyWith(
                       color: Colors.white,
                       fontSize: 18,
@@ -149,7 +151,8 @@ class ProfilePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            statisticWidget(total: '${postController.postList.length}', menu: 'Post'),
+            statisticWidget(
+                total: '${postController.postList.length}', menu: 'Post'),
             statisticWidget(total: '589', menu: 'Followers'),
             statisticWidget(total: '641', menu: 'Following'),
           ],

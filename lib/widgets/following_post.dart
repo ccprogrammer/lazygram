@@ -73,7 +73,7 @@ class FollowingPost extends StatelessWidget {
             child: Row(
               children: [
                 CircleAvatar(
-                  backgroundImage: AssetImage(imageUser),
+                  backgroundImage: NetworkImage(imageUser),
                 ),
                 SizedBox(width: 8),
                 Column(
